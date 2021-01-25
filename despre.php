@@ -7,8 +7,9 @@
 </head>
 
 <body>
-	<h1>Pagina Despre noi</h1>
-	<?php include("html/header.html");?>
+<?php $page = 'despre';?>
+	
+	<?php include("html/header.php");?>
 	<?php include("html/despre.html");?>
 	<?php include("html/footer.html");?>
 </body>
