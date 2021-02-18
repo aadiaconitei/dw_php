@@ -1,0 +1,89 @@
+<style>
+.myslide {
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  -webkit-animation: slideshow 16s linear 0s infinite;
+  -moz-animation: slideshow 16s linear 0s infinite;
+  -ms-animation: slideshow 16s linear 0s infinite;
+  -o-animation: slideshow 16s linear 0s infinite;
+  animation: slideshow 16s linear 0s infinite;
+}
+			
+
+.myslide:nth-child(2) {
+  z-index: 3;
+  -webkit-animation: slideshow 16s linear 4s infinite;
+  -moz-animation: slideshow 16s linear 4s infinite;
+  -ms-animation: slideshow 16s linear 4s infinite;
+  -o-animation: slideshow 16s linear 4s infinite;
+  animation: slideshow 16s linear 4s infinite;
+	background-color: aquamarine;
+}
+
+.myslide:nth-child(3) {
+   z-index: 2;
+  -webkit-animation: slideshow 16s linear 8s infinite;
+  -moz-animation: slideshow 16s linear 8s infinite;
+  -ms-animation: slideshow 16s linear 8s infinite;
+  -o-animation: slideshow 16s linear 8s infinite;
+  animation: slideshow 16s linear 8s infinite;
+}
+.myslide:nth-child(4) {
+   z-index: 1;
+  -webkit-animation: slideshow 16s linear 12s infinite;
+  -moz-animation: slideshow 16s linear 12s infinite;
+  -ms-animation: slideshow 16s linear 12s infinite;
+  -o-animation: slideshow 16s linear 12s infinite;
+  animation: slideshow 16s linear 12s infinite;
+	background-color: darkturquoise;
+}
+@-webkit-keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;} 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
+}
+@-moz-keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;} 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
+}
+@-ms-keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;} 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
+}
+@-o-keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;} 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
+}
+@keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;} 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
+}
+</style>
+		<div  style="position: relative;height: 370px;">
+			<section class="hero myslide" id="hero">
+				<h2 class="hero_header">1.My Dream<span class="light"> LINK ACADEMY </span></h2>
+				<p class="tagline">Site-ul de la cursul Adobe Dreamweaver </p>
+			</section>
+			<section class="hero myslide" id="hero1">
+				<h2 class="hero_header">2.My Dream<span class="light"> LINK ACADEMY </span></h2>
+				<p class="tagline">Primul meu proiect  </p>
+			</section>
+			<section class="hero myslide" id="hero2">
+				<h2 class="hero_header">3.My Dream<span class="light"> LINK ACADEMY </span></h2>
+				<p class="tagline">CSS Animatii </p>
+			</section>
+			<section class="hero myslide" id="hero3">
+				<h2 class="hero_header">4.My Dream<span class="light"> LINK ACADEMY </span></h2>
+				<p class="tagline">Acum STIU! </p>
+			</section>
+		</div>
