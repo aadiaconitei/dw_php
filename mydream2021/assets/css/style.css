@@ -34,15 +34,17 @@ header {
 	margin-left: 25px;
 	letter-spacing: 4px;
 }
+
 nav {
 	float: right;
-	width: 75%;
+	width: 80%;
 	text-align: right;
 	margin-right: 25px;
 }
 header nav ul {
 	list-style: none;
 	float: right;
+	margin: 0px;
 }
 nav ul li {
 	float: left;
@@ -53,6 +55,11 @@ nav ul li {
 	letter-spacing: 2px;
 	font-weight: bold;
 	transition: all 0.3s linear;
+	
+    padding: 17px 10px;
+}
+nav ul li.activ {
+	background-color: red;
 }
 nav ul li a {
 	color: #FFFFFF;
@@ -484,3 +491,42 @@ nav ul li {
 	padding-top: 0px;
 }
 }
+
+.selectori *{
+	padding: 15px;
+}
+		.selectori{
+			width: 100%;
+			max-width: 1000px;
+			margin: auto;
+			
+		}
+		.selectori div{
+			border: solid #AF0B0E 15px;
+			margin: 15px auto;
+		}
+		.selectori div p {
+
+			font-family:  Georgia, serif;
+			font-style: normal;
+			font-weight: bold;
+			text-align: left;
+			text-indent: 10px;
+
+		}
+		.selectori > div> div> div{
+			background-color: aqua;
+		}
+		.selectori > div> div{
+			background-color: antiquewhite;
+		}
+		.selectori > div{
+			background-color: blueviolet;
+		}
+
+		.selectori p+div {
+			color: red;
+		}
+		.selectori div div div p {
+			color: #0C7C07;
+		}

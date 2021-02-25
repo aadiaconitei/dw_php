@@ -8,10 +8,12 @@
 
 <body>
 <?php $page = 'despre';?>
-	
+<div class="container"> 
 	<?php include("html/header.php");?>
-	<?php include("html/despre.html");?>
+	<?php //include("html/despre.html");?>
+	<?php include("html/Aplicatie-1.html");?>
 	<?php include("html/footer.html");?>
-	
+</div>
+
 </body>
 </html>

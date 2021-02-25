@@ -8,11 +8,12 @@
 		<link href="assets/css/style.css" rel="stylesheet" type="text/css">
 	</head>
 <body>
+<?php $page = 'acasa';?>
 	<!-- Main Container     -->
 	<?php //mydream089!   ;?>
 	<div class="container"> 
   		<!-- Header -->
-  		<?php include('html/header.html');?>
+  		<?php include('html/header.php');?>
 		<!--End header-->
 		<!-- Banner Section -->
 		<?php include('html/banner.html');?>

@@ -9,10 +9,10 @@
 	</head>
 <body>
 	<!-- Main Container     -->
-	<?php //mydream089!   ;?>
+	<?php $page = 'tabele';?>
 	<div class="container"> 
   		<!-- Header -->
-  		<?php include('html/header.html');?>
+  		<?php include('html/header.php');?>
 		<!--End header-->
 		<!-- Banner Section -->
 		<?php include('html/banner.html');?>
